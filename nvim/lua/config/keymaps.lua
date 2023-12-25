@@ -11,7 +11,7 @@ keymap.set('n', '<C-B>', '<C-B>zz', opts)
 keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
 keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
 keymap.set('n', 'n', "nzzzv")
-keymap.set('N', 'N', "Nzzzv")
+keymap.set('n', 'N', "Nzzzv")
 
 -- Indenting
 keymap.set("v", "<", "<gv")
