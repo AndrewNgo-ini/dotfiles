@@ -40,6 +40,9 @@ return {
           ['<C-d>'] = cmp.mapping.scroll_docs(4),
           ['<C-f>'] = cmp_action.luasnip_jump_forward(),
           ['<C-b>'] = cmp_action.luasnip_jump_backward(),
+          ['<CR>'] = cmp.mapping.confirm({select = true}),
+          ['<TAB>'] = cmp.mapping.select_next_item({behavior = 'select'}),
+          ['<S-TAB>'] = cmp.mapping.select_prev_item({behavior = 'select'}),
         })
       })
     end
