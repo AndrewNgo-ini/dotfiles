@@ -23,3 +23,4 @@ vim.api.nvim_set_keymap("v", "<C-_>", "gcc", { noremap = false })
 
 
 vim.api.nvim_set_keymap("i", "jk", "<ESC>", { silent = true })
+vim.diagnostic.disable()
