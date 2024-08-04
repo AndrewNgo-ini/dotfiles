@@ -1,0 +1,21 @@
+nnoremap <c-t> :action ActivateTerminalToolWindow<CR>
+
+" Navigation
+
+nnoremap <TAB> :action NextTab<CR>
+nnoremap <s-TAB> :action PreviousTAB<CR>
+
+sethandler <c-j> a:vim
+sethandler <c-k> a:vim
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+nnoremap <c-j> <c-w>j
+nnoremap <c-l> <c-w>l
+
+let mapleader=" "
+nnoremap <leader>v :action SplitVertically<CR>
+nnoremap <leader>h :action SplitHorizontally<CR>
+nnoremap <leader>x :action CloseContent<CR>
+
+Plug 'preservim/nerdtree'
+map <c-n> :NERDTree<CR>
