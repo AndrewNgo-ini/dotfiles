@@ -19,3 +19,8 @@ nnoremap <leader>x :action CloseContent<CR>
 
 Plug 'preservim/nerdtree'
 map <c-n> :NERDTree<CR>
+nnoremap <leader>f :action ReformatCode<CR>
+imap jk <Esc>
+set timeoutlen=1000
+set relativenumber
+set number
